@@ -19,7 +19,7 @@ namespace Company.Function
         [Fact]
         public async void Http_trigger_should_return_known_string()
         {
-            // Don't forget to ! implement monitoring
+            // Don't forget to implement monitoring
             var counter = new Counter();
             counter.Id = "index";
             counter.Count = 2;
