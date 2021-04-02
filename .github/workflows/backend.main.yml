@@ -1,7 +1,11 @@
 name: Windows_Dotnet_Workflow
 
 on:
-  [push]
+  push:
+        branches: [ main ]
+        paths:
+        - 'backend/**'
+          
 
 # CONFIGURATION
 # For help, go to https://github.com/Azure/Actions
