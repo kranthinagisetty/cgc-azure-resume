@@ -25,7 +25,7 @@ namespace Company.Function
             ILogger log)
         {
 
-            log.LogInformation("Function was triggered.");
+            log.LogInformation("GetResumeCounter was triggered.");
 
             updatedCounter = counter;
             updatedCounter.Count += 1;
