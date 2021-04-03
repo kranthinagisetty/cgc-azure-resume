@@ -1,5 +1,6 @@
-name: Blob storage website CI
+name: deploy_frontend
 
+# Deploy when push made from frontend folder.
 on:
     push:
         branches: [ main ]
