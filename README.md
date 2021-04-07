@@ -33,11 +33,12 @@ The back-end is an [HTTP triggered Azure Functions](https://docs.microsoft.com/e
 [Testing is important](https://dev.to/flippedcoding/its-important-to-test-your-code-3lid), though my tests are simple, they exist. I am using .NET but some of these resources will apply to any language.
 
 - [Getting Started with xUnit.net](https://xunit.net/docs/getting-started/netcore/cmdline)
-- [Testing Azure Functions.](https://docs.microsoft.com/en-us/azure/azure-functions/functions-test-a-function) 
+- [How to setup Xunit with Azure Functions](https://madebygps.com/how-to-use-xunit-with-azure-functions/)
+- [Testing Azure Functions.](https://docs.microsoft.com/en-us/azur/azure-functions/functions-test-a-function) 
 
-### How to use Xunit with Azure Functions
 
-- TODO
+
+
 
 
 ## CI/CD Resources
