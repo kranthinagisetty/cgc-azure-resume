@@ -10,7 +10,7 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 
-namespace Company.Function
+namespace tests
 {
     public class TestCounter
     {
@@ -20,11 +20,11 @@ namespace Company.Function
         public async void Http_trigger_should_return_known_string()
         {
             // Don't forget to implement monitoring
-            var counter = new Counter();
+            var counter = new Company.Function.Counter();
             counter.Id = "index";
             counter.Count = 2;
             var request = TestFactory.CreateHttpRequest();
-            var response = (HttpResponseMessage) GetResumeCounter.Run(request, counter, out counter, logger);
+            var response = (HttpResponseMessage) Company.Function.GetResumeCounter.Run(request, counter, out counter, logger);
             Assert.Equal(3, counter.Count);
         }
 

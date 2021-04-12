@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Primitives;
 using System.Collections.Generic;
 
-namespace Company.Function
+namespace tests
 {
     public class TestFactory
     {

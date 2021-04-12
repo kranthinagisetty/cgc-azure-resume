@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Company.Function
+namespace tests
 {
     public class ListLogger : ILogger
     {

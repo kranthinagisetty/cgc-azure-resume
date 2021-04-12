@@ -1,6 +1,6 @@
 using System;
 
-namespace Company.Function
+namespace tests
 {
     public class NullScope : IDisposable
     {

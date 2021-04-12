@@ -1,4 +1,4 @@
-namespace Company.Function
+namespace tests
 {
     public enum LoggerTypes
     {
