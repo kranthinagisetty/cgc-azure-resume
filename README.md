@@ -7,6 +7,18 @@ View it live [here](https://www.gwynethpena.com)
 
 ![Diagram](img/diagram.png)
 
+## Prerequisites
+
+- [GitHub account](https://github.com/join)
+- [Azure account](https://azure.microsoft.com/en-us/free)
+- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+- [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Visual Code Extensions](https://code.visualstudio.com/docs/introvideos/extend)
+  - [Azure Functions Extensions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
+  - [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+  - [Azure Storage Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
+
 ## Front-end resources
 
 The front-end is a static site with HTML, CSS, and JavaScript. It's static and has a visitor counter. The visitor counter data fetched via an API call to an Azure Function.
@@ -16,10 +28,9 @@ The front-end is a static site with HTML, CSS, and JavaScript. It's static and h
 - [Azure storage explorer is a handy tool to use when working with Storage Accounts](https://azure.microsoft.com/en-us/features/storage-explorer/)
 - This is how you can [deploy static site to blob storage.](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host)
 
-
 ## Back-end resources
 
-The back-end is an [HTTP triggered Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=csharp) with Cosmos DB input and output binding. The Function is triggered, it retrieves the CosmosDB item, add +1 to it, and saves it and returns its value to the caller.
+The back-end is an [HTTP triggered Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=csharp) with Cosmos DB input and output binding. The Function is triggered, it retrieves the CosmosDB item, adds 1 to it, and saves it and returns its value to the caller.
 
 - [Create a Cosmos DB account via command line](https://azure.microsoft.com/en-us/resources/templates/101-cosmosdb-free/) or [from the portal.](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal)
 - [Create an HTTP triggered Azure Function in Visual Studio Code.](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=csharp)
